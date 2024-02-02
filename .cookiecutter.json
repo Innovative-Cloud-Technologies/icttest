@@ -1,0 +1,13 @@
+{
+  "_checkout": "2021.1.1",
+  "_output_dir": "C:\\Users\\chase",
+  "_repo_dir": "C:\\Users\\chase\\.cookiecutters\\cookiecutter-homeassistant-custom-component",
+  "_template": "gh:oncleben31/cookiecutter-homeassistant-custom-component",
+  "class_name_prefix": "ClassTest",
+  "domain_name": "DomainTest",
+  "friendly_name": "ICTTest",
+  "github_user": "chasebrizy9",
+  "project_name": "ProjectTest",
+  "test_suite": "yes",
+  "version": "0.0.0"
+}
