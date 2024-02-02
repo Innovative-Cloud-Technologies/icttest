@@ -1,1 +1,1 @@
-"""Tests for ICTTest integration."""
+"""Tests for ictcomponent integration."""

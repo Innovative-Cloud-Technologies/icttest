@@ -1,0 +1,10 @@
+{
+  "domain": "ictdomain",
+  "name": "ictcomponent",
+  "documentation": "https://github.com/chasebrizy9/ictproject",
+  "issue_tracker": "https://github.com/chasebrizy9/ictproject/issues",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": ["@chasebrizy9"],
+  "requirements": []
+}

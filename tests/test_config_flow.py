@@ -1,20 +1,20 @@
-"""Test ICTTest config flow."""
+"""Test ictcomponent config flow."""
 from unittest.mock import patch
 
 import pytest
-from custom_components.DomainTest.const import (
+from custom_components.ictdomain.const import (
     BINARY_SENSOR,
 )
-from custom_components.DomainTest.const import (
+from custom_components.ictdomain.const import (
     DOMAIN,
 )
-from custom_components.DomainTest.const import (
+from custom_components.ictdomain.const import (
     PLATFORMS,
 )
-from custom_components.DomainTest.const import (
+from custom_components.ictdomain.const import (
     SENSOR,
 )
-from custom_components.DomainTest.const import (
+from custom_components.ictdomain.const import (
     SWITCH,
 )
 from homeassistant import config_entries
@@ -30,8 +30,8 @@ from .const import MOCK_CONFIG
 @pytest.fixture(autouse=True)
 def bypass_setup_fixture():
     """Prevent setup."""
-    with patch("custom_components.DomainTest.async_setup", return_value=True,), patch(
-        "custom_components.DomainTest.async_setup_entry",
+    with patch("custom_components.ictdomain.async_setup", return_value=True,), patch(
+        "custom_components.ictdomain.async_setup_entry",
         return_value=True,
     ):
         yield

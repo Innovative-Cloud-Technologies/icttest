@@ -1,8 +1,8 @@
-"""Constants for ICTTest tests."""
-from custom_components.DomainTest.const import (
+"""Constants for ictcomponent tests."""
+from custom_components.ictdomain.const import (
     CONF_PASSWORD,
 )
-from custom_components.DomainTest.const import (
+from custom_components.ictdomain.const import (
     CONF_USERNAME,
 )
 

@@ -1,17 +1,17 @@
-"""Test ICTTest switch."""
+"""Test ictcomponent switch."""
 from unittest.mock import call
 from unittest.mock import patch
 
-from custom_components.DomainTest import (
+from custom_components.ictdomain import (
     async_setup_entry,
 )
-from custom_components.DomainTest.const import (
+from custom_components.ictdomain.const import (
     DEFAULT_NAME,
 )
-from custom_components.DomainTest.const import (
+from custom_components.ictdomain.const import (
     DOMAIN,
 )
-from custom_components.DomainTest.const import (
+from custom_components.ictdomain.const import (
     SWITCH,
 )
 from homeassistant.components.switch import SERVICE_TURN_OFF
@@ -32,7 +32,7 @@ async def test_switch_services(hass):
     # Functions/objects can be patched directly in test code as well and can be used to test
     # additional things, like whether a function was called or what arguments it was called with
     with patch(
-        "custom_components.DomainTest.ClassTestApiClient.async_set_title"
+        "custom_components.ictdomain.ictApiClient.async_set_title"
     ) as title_func:
         await hass.services.async_call(
             SWITCH,
